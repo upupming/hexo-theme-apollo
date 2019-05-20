@@ -11,6 +11,12 @@ excerpt_link: Read More
 fancybox: true
 mathjax:
   enable: true
+  cdn: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML
+
+katex:
+  enable: true
+  cdn:
+    css: https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css
 
 # Miscellaneous
 google_analytics:

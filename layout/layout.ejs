@@ -8,5 +8,10 @@
     <%- partial('_partial/footer') %>
     <%- partial('_partial/after-footer') %>
   </div>
+  <% if (theme.katex && theme.katex.enable) { %>
+    <% if (!is_tag() && !is_category() && !is_archive()) { %>
+      <%- include('_partial/third-party/katex'); %>
+    <% } %>  
+  <% } %>
 </body>
 </html>
