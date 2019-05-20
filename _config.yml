@@ -1,13 +1,21 @@
 # Header
 menu:
   Home: /
+  Categories: /categories
   Archives: /archives
-rss: /atom.xml
+
+rss: "https://medium.com/@younghtyw"
 
 # Content
 excerpt_link: Read More
 fancybox: true
+mathjax:
+  enable: true
 
 # Miscellaneous
 google_analytics:
 favicon: /favicon.png
+
+# Local search
+local_search:
+  enable: true
